@@ -30,7 +30,7 @@ footer{
     overflow: hidden;
 }
 div .carousel-caption{
-    bottom: 30%;
+    bottom: 35%;
 }
 .img-Vcenter {
 	height: 434px;
@@ -38,7 +38,7 @@ div .carousel-caption{
 	align-items: center;
 }
 .img-Vcenter>div{
-    margin-bottom: 6%;
+    margin-bottom: 0%;
 }
 .featurette-heading{
 	font-size: 40px;
@@ -78,7 +78,7 @@ div .carousel-caption{
 .hzpt>div>div>a>img{
     height:44px;
 }
-.hzpt>div>div>a>img:hover{
+.hzpt>div>div>a>img:hover,.enter>div>a>img:hover{
     opacity: .5;
 }
 .form-control{
@@ -160,17 +160,15 @@ div .carousel-caption{
     .hz>div{
     width:80%;
     margin-left:calc((100% - 80%) * 0.5);
-}
-}
-@media only screen and (max-width: 768px){
-    .img-Vcenter{
-        height:50vw;
     }
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 768px){
     .nav-container{
         margin-left:0;
         margin-right:0;
+    }
+    .img-Vcenter{
+        height:50vw;
     }
 }
 .strokeleft{
