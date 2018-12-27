@@ -11,20 +11,20 @@
 <link href="css/test.css" rel="stylesheet">
 </head>
 <body>
-    <div style="position: fixed; background-color: white;z-index: 2;height: 120px; width: 100%;"></div>
+    <div class="menu-bg"></div>
       <nav class="navbar navbar-default navbar-fixed-top nav-container">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="padding:20px; margin-top:30px;">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#" style="padding: 10;"><img src="img/logo.jpg" alt="logo-1.jpg" height="90px;"></a>
+            <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="logo-1.jpg"></a>
           </div>
-          <div id="navbar" class="navbar-collapse collapse" style="border: none;">
-            <ul class="nav navbar-nav navbar-right" style="margin-top:36px; margin-bottom: 20px; font-size:20px;">
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
               <li><a class="active" href="#">关于我们<span class="sr-only">(current)</span></a></li>
               <li><a href="Solution.html" >解决方案</a></li>
               <li><a href="Partner.html" >合作伙伴</a></li>
@@ -35,7 +35,7 @@
       </nav>
     <!-- navigation bar finish -->
   <div class="clearfix">
-    <div style="width: 100%; margin-top: 120px">
+    <div id="nav-space">
       <div id="myCarousel" class="carousel" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>            
@@ -98,10 +98,10 @@
   <!--轮播结束-->
 	
 	
-  <div class="well" style="position: relative">
+  <div class="well">
 	<div class="container">
 	  <div class="row">
-        <div class="col-md-6 col-md-push-6" style="margin-top:20px">
+        <div class="col-md-6 col-md-push-6">
           <img class="img-responsive " src="img/byogo.png" data-holder-rendered="true" alt="byogo" width="400px">
         </div>
         <div class="col-md-5 col-md-offset-1 col-md-pull-6">
@@ -115,7 +115,7 @@
   </div>
 	
   <!-- about us-->
-	<div class="container" style="position: relative; padding-bottom:3%">
+	<div class="container pd">
 	  <div class="row">
         <div class="col-md-6 col-md-offset-6">
 			<h2 class="featurette-heading titleleft">商城入口</h2>        
@@ -126,18 +126,18 @@
 			<div class="col-md-3"><a href="https://shop151700671.taobao.com/?spm=a230r.7195193.1997079397.2.43a07df4xhbW36"><img class="shop-enter" src="img/tb.png" alt="淘宝"></a></div>
 			<div class="col-md-3"><a href="http://deciem.jd.hk/"><img class="shop-enter" src="img/jd.png" alt="京东"></a></div>
 			<div class="col-md-3"><a href="https://j.youzan.com/ttYiO9"><img class="shop-enter" src="img/yz.png" alt="有赞"></a></div>
-			<div class="col-md-3"><a href="https://mall.icbc.com.cn/shop/index.jhtml?shopId=029959"><img class="shop-enter" src="img/reg.png" alt="鲸鱼"></a></div>
+			<div class="col-md-3"><a href="https://mall.icbc.com.cn/shop/index.jhtml?shopId=029959"><img class="shop-enter" src="img/reg.png" alt="融已购"></a></div>
 		</div>
 	</div>
   <!-- contact us-->
-  <div class="well" style="background-color: #2B2B2B; color: #FFFFFF; width: 100%; position: relative;">
+  <div class="well blackbg">
     <div class="text-center" style="margin:30px 0;"><h1 class="featurette-heading">对我们的服务感兴趣？</h1></div>
     <a href="Contact.html"><input type="button" class="button" value="联系我们"></a>
   </div>
   
   <div class="container" style="position: relative; margin-bottom: 2%">
         <div class="col-md-6">
-            <div style="position: absolute; border-right: 10px solid rgb(66,66,66); display: block; height:70px; right:-1%; top: 10%">&nbsp</div>
+            <div class="strokeright">&nbsp</div>
             <h2 class="featurette-heading" style="margin-left: 5px; direction: rtl;padding:5px;">服务公众号</h2></div><br>
 	  <div class="col-md-10" style="margin-left:calc((100% - 87%) * 0.5);text-align: center">
 		<div class="col-md-3">
@@ -153,7 +153,7 @@
   
   <footer>
       <div class="container">
-    <div class="col-md-10" style="text-align: left; margin-left: 12%">
+    <div class="col-md-10" style="margin-left: 12%">
     <div class="col-md-3">
         <h4>解决方案</h4>
         <a href="Solution.html#ccwl"><p>-仓储物流</p></a>
