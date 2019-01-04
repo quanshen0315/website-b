@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer src="http://ditu.google.cn/maps/api/js?key=AIzaSyB9Jp__s-EKzvGHm4c-KwBdHWsITkgpuRo&callback=initMap" type="text/javascript">
+        
+    </script>
+<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=BYOGO%E7%99%BE%E4%BC%98%E8%B4%AD&key=AIzaSyAApog_JM_zp9Jko9-cQjQl69Jrr99uKVw&zoom=15" allowfullscreen></iframe>
+<iframe src="http://www.google.cn/maps/embed?pb=!1m14!1m8!1m3!1d6846.862840412379!2d-79.34525409230464!3d43.81951969699429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d333ff4b3727%3A0x92e49b943de10572!2zQllPR0_nmb7kvJjotK0!5e0!3m2!1szh-CN!2scn!4v1546558621566" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+</body>
+
+</html>
