@@ -167,6 +167,7 @@ div .carousel-caption{
     border: 0px; 
     margin-left:calc((100% - 76%) * 0.5);
     margin-right:calc((100% - 76%) * 0.5);
+    top: 30px;
 }
 .active{
     color:#A08E69!important;

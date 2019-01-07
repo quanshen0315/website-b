@@ -13,6 +13,10 @@
 </head>
 <body>
     <div class="menu-bg"></div>
+    <div id="btns" style="height: 20px; text-align: right; background-color:rgb(255,255,255);position: fixed;width: 100%;z-index: 100; padding-right: 20px; padding-top: 5px;">
+        <a class="btn active" onclick="setlang('default',this)" href="javascript:;">中文</a>
+        <a class="btn" onclick="setlang('en',this)" href="javascript:;">English</a> 
+    </div>    
       <nav class="navbar navbar-default navbar-fixed-top nav-container">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -26,12 +30,12 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">关于我们<span class="sr-only">(current)</span></a></li>
-              <li><a href="Solution.html" >解决方案</a></li>
-              <li><a class="active" href="#" >合作伙伴</a></li>
-              <li><a href="Contact.html">联系我们</a></li>
-              <li><a href="http://search.byogo.com">商品搜索</a></li>
-              <li><a href="http://www.gotoquick.com">快客速递</a></li>
+              <li><a href="index.html">关于我们<!--{en}About us--><span class="sr-only">(current)</span></a></li>
+              <li><a href="Solution.html">解决方案<!--{en}Solution--></a></li>
+              <li><a class="active" href="#" >合作伙伴<!--{en}Partner--></a></li>
+              <li><a href="Contact.html">联系我们<!--{en}Contact Us--></a></li>
+              <li><a href="http://search.byogo.com">商品搜索<!--{en}Search--></a></li>
+              <li><a href="http://www.gotoquick.com">快客速递<!--{en}GoToQuick--></a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -40,14 +44,14 @@
   <div class="clearfix" id="hzdp">
   <div class="text-center" style="height:212px; margin-top:120px; position: relative;">
       <div style="position: absolute; color:white; width: 100%;height: inherit;background-color: rgba(3,3,3,0.7);">
-	  <h1 style="position: absolute; left:0;right: 0; top: 25%; font-size:70px;">合作伙伴</h1></div>
+	  <h1 style="position: absolute; left:0;right: 0; top: 25%; font-size:70px;">合作伙伴<!--{en}Partner--></h1></div>
       <img src="img/合作.jpg" alt="解决方案" width ="100%" height ="212px">
   </div>
   </div>
   <span class="archor" id="hzpp"></span>
   <div class="well text-center hz shadow">
     <div class="enter">
-      <h1 class="featurette-heading">合作品牌</h1>
+      <h1 class="featurette-heading">合作品牌<!--{en}Cooperation brand--></h1>
       <div><a href="https://deciem.com"><img src="img/deciem-og.png" alt="Deciem"></a></div>
       <div><a href="https://theordinary.com"><img src="img/to.png" alt="The ordinary"></a></div>
       <div><a href="https://niod.com"><img src="img/niod.png" alt="NIOD"></a></div>
@@ -65,7 +69,7 @@
   <span class="archor" id="hzpt"></span>
   <div class="text-center hz hzpt">
     <div>
-      <h1 class="featurette-heading">合作平台</h1>
+      <h1 class="featurette-heading">合作平台<!--{en}Cooperation Platform--></h1>
       <div><a href="https://g.taobao.com/"><img src="img/qqg.png" alt="全球购"></a></div>
       <div><a href="https://www.jd.hk/"><img src="img/htqq.png" alt="海囤全球"></a></div>
       <div><a href="https://www.tmall.hk/"><img src="img/tmgj.png" alt="天猫国际"></a></div>
@@ -83,21 +87,21 @@
       <div class="container">
     <div class="col-md-10 footer-position">
     <div class="col-md-3">
-        <h4>解决方案</h4>
-        <a href="Solution.html#ccwl"><p>-仓储物流</p></a>
-        <a href="Solution.html#gylfw"><p>-供应链服务</p></a>
-        <a href="Solution.html#gyljr"><p>-供应链金融</p></a>
-        <a href="Solution.html#zzfw"><p>-增值服务</p></a>
+        <h4>解决方案<!--{en}Solution--></h4>
+        <a href="Solution.html#ccwl"><p>-仓储物流<!--{en}-Warehouse Logistics--></p></a>
+        <a href="Solution.html#gylfw"><p>-供应链服务<!--{en}-Supply chain service--></p></a>
+        <a href="Solution.html#gyljr"><p>-供应链金融<!--{en}-Supply chain finance--></p></a>
+        <a href="Solution.html#zzfw"><p>-增值服务<!--{en}-Value-added services--></p></a>
     </div>
     <div class="col-md-3">
-        <h4>合作伙伴</h4>
-        <a href="Partner.html#hzpt"><p>-合作平台</p></a>
-        <a href="Partner.html#hzpp"><p>-合作品牌</p></a>
-        <a href="Partner.html#hzdp"><p>-合作店铺</p></a>
-        <a href="Contact.html"><p>-业务洽谈</p></a>
+        <h4>合作伙伴<!--{en}Partner--></h4>
+        <a href="Partner.html#hzpt"><p>-合作平台<!--{en}-Cooperation Platform--></p></a>
+        <a href="Partner.html#hzpp"><p>-合作品牌<!--{en}-Cooperation brand--></p></a>
+        <a href="Partner.html#hzdp"><p>-合作店铺<!--{en}-Cooperative shop--></p></a>
+        <a href="Contact.html"><p>-业务洽谈<!--{en}-Business negotiations--></p></a>
     </div>
     <div class="col-md-6">
-        <h4>联系我们</h4>
+        <h4>联系我们<!--{en}Contact Us--></h4>
         <p>Toronto： 61 Telson Rd Unit 1 Markham ON<br>Contact(Toronto)： +1-905 604 0459</p>
         <p>大  连：辽宁省大连市高新园区软件园路1A-4软景中心A座2306室<br>业务咨询(Dalian)： 0411-88802080</p>
     </div>
@@ -109,6 +113,33 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/translater.min.js"></script>
+<script type="text/javascript">
+    var Translater = new Translater();
+
+    var btns = document.getElementById('btns');
+
+    for (var i = 0; i < btns.childNodes.length; i++) {
+        var  str = btns.childNodes[i].outerHTML;
+        if(str){
+            str = str.match(/onclick=\"setlang\(\'(.*?)\'\,/);
+            if(str.length>1 && str[1] === Translater.lang_name){
+                btns.childNodes[i].className = 'btn active'
+            }else{
+                btns.childNodes[i].className = 'btn'
+            }
+        }
+    }
+
+    function setlang(name,self){
+        Translater.setLang(name);
+        var btns = self.parentNode.children;
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].className = 'btn';
+        }
+        self.className = 'btn active';
+    }
+</script>
 </body>
 </html>
