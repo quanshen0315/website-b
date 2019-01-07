@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>关于我们</title>
+<title>百优购</title>
 <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" sizes="16*16">
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -12,7 +12,11 @@
 </head>
 <body>
     <div class="menu-bg"></div>
-      <nav class="navbar navbar-default navbar-fixed-top nav-container">
+    <div id="btns" style="height: 20px; text-align: right; background-color:rgb(255,255,255);position: fixed;width: 100%;z-index: 100; padding-right: 20px; padding-top: 5px;">
+        <a class="btn active" onclick="setlang('default',this)" href="javascript:;">中文</a>
+        <a class="btn" onclick="setlang('en',this)" href="javascript:;">English</a> 
+    </div>
+      <nav class="navbar navbar-default navbar-fixed-top nav-container" style="top:30px">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -25,12 +29,12 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a class="active" href="#">关于我们<span class="sr-only">(current)</span></a></li>
-              <li><a href="Solution.html" >解决方案</a></li>
-              <li><a href="Partner.html" >合作伙伴</a></li>
-              <li><a href="Contact.html">联系我们</a></li>
-              <li><a href="http://search.byogo.com">商品搜索</a></li>
-              <li><a href="http://www.gotoquick.com">快客速递</a></li>
+              <li><a class="active" href="#">关于我们<!--{en}About us--><span class="sr-only">(current)</span></a></li>
+              <li><a href="Solution.html" >解决方案<!--{en}Solution--></a></li>
+              <li><a href="Partner.html" >合作伙伴<!--{en}Partner--></a></li>
+              <li><a href="Contact.html">联系我们<!--{en}Contact Us--></a></li>
+              <li><a href="http://search.byogo.com">商品搜索<!--{en}Search--></a></li>
+              <li><a href="http://www.gotoquick.com">快客速递<!--{en}GoToQuick--></a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -53,8 +57,8 @@
               <div class="carousel-caption" >
                 <div>&nbsp</div>
                 <div>
-                  <h1>一站式跨境电商解决方案</h1>
-                  <h2>跨境物流 •跨境金融 •跨境供应链</h2>
+                  <h1>一站式跨境电商解决方案<!--{en}One-stop cross-border e-commerce solution--></h1>
+                  <h2>跨境物流 •跨境金融 •跨境供应链<!--{en}Cross-border logistics • Cross-border finance • Cross-border supply chains--></h2>
                 </div>
               </div>
               </div>
@@ -63,8 +67,8 @@
                <div class="carousel-caption">
                 <div>&nbsp</div>
                 <div>
-                  <h1>跨境物流解决方案</h1>
-                  <h2>天猫国际 •京东国际 •小红书 •淘宝全球购认证海外仓</h2>
+                  <h1>跨境物流解决方案<!--{en}Cross-border logistics solutions--></h1>
+                  <h2>天猫国际 •京东国际 •小红书 •淘宝全球购认证海外仓<!--{en}Tmall International • Jingdong International • Xiaohongshu • Taobao Global Purchase Certification Overseas Warehouse--></h2>
                 </div>
               </div>
             </div>
@@ -73,8 +77,8 @@
                <div class="carousel-caption">
                 <div>&nbsp</div>
                 <div>
-                  <h1>跨境金融解决方案</h1>
-                  <h2>商货外汇结算 • 担保交易 • 供应链金融</h2>
+                  <h1>跨境金融解决方案<!--{en}Cross-border financial solutions--></h1>
+                  <h2>商货外汇结算 • 担保交易 • 供应链金融<!--{en}Commercial Foreign Exchange Settlement • Secured Trading • Supply Chain Finance--></h2>
                 </div>
               </div>
             </div>
@@ -83,8 +87,8 @@
                <div class="carousel-caption">
                 <div>&nbsp</div>
                 <div>
-                  <h1>供应链解决方案</h1>
-                  <h2>品牌代理 • 店铺运营 • 货物托管 • 供应链金融</h2>
+                  <h1>供应链解决方案<!--{en}Supply chain solution--></h1>
+                  <h2>品牌代理 • 店铺运营 • 货物托管 • 供应链金融<!--{en}Brand Agency • Store Operations • Cargo Hosting • Supply Chain Finance--></h2>
                 </div>
               </div>
             </div>
@@ -108,19 +112,19 @@
         </div>
         <div class="col-md-5 col-md-offset-1 col-md-pull-6">
 			<div class="strokeright">&nbsp</div>
-			<div><h2 class="featurette-heading titleright">关于我们</h2></div>
-			<p class="lead">百优购创始于2015年，是一家跨国型电子商务公司。业务范围包括跨境物流、电商、品牌推广及VR嵌入技术。公司总部设于大连，在北京、广州、多伦多、温哥华、卡尔加里等地设有分公司，业务网络覆盖中国大陆及加拿大。<br><br>百优购拥有完善的产品供应链和自有物流系统，致力于提供北美至中国大陆全链路跨境电商解决方案。</p>
+			<div><h2 class="featurette-heading titleright">关于我们<!--{en}About Us--></h2></div>
+			<p class="lead">百优购创始于2015年，是一家跨国型电子商务公司。业务范围包括跨境物流、电商、品牌推广及VR嵌入技术。公司总部设于大连，在北京、广州、多伦多、温哥华、卡尔加里等地设有分公司，业务网络覆盖中国大陆及加拿大。<!--{en}Founded in 2015, Byogo is a multinational e-commerce company. The business scope includes cross-border logistics, e-commerce, brand promotion and VR embedded technology. Headquartered in Dalian, the company has branches in Beijing, Guangzhou, Toronto, Vancouver, Calgary and other places, and its business network covers China and Canada.--><br/>百优购拥有完善的产品供应链和自有物流系统，致力于提供北美至中国大陆全链路跨境电商解决方案。<!--{en}With a comprehensive product supply chain and its own logistics system, Byogo has been committed to providing full-link cross-border e-commerce solutions from North America to China.--></p>
         </div>
       </div>
 	</div>
-	<a href="Solution.html"><input type="button" class="button" value="了解更多"></a>
+	<a href="Solution.html"><input type="button" class="button" value="了解更多" value-en="Know more"></a>
   </div>
 	
   <!-- about us-->
 	<div class="container pd">
 	  <div class="row">
         <div class="col-md-6 col-md-offset-6">
-			<h2 class="featurette-heading titleleft">商城入口</h2>        
+			<h2 class="featurette-heading titleleft">商城入口<!--{en}Online store entrance--></h2>
             <div class="strokeleft">&nbsp</div>
 		</div>	 
 	  </div>
@@ -133,14 +137,14 @@
 	</div>
   <!-- contact us-->
   <div class="well blackbg">
-    <div class="text-center" style="margin:30px 0;"><h1 class="featurette-heading">对我们的服务感兴趣？</h1></div>
-    <a href="Contact.html"><input type="button" class="button" value="联系我们"></a>
+    <div class="text-center" style="margin:30px 0;"><h1 class="featurette-heading">对我们的服务感兴趣？<!--{en}Interested in our services?--></h1></div>
+    <a href="Contact.html"><input type="button" class="button" value="联系我们" value-en="Contact Us"></a>
   </div>
   
   <div class="container" style="position: relative; margin-bottom: 2%">
         <div class="col-md-6">
             <div class="strokeright">&nbsp</div>
-            <h2 class="featurette-heading titleright">服务公众号</h2></div><br>
+            <h2 class="featurette-heading titleright">服务公众号<!--{en}Service public account--></h2></div><br>
 	  <div class="col-md-10" style="margin-left:calc((100% - 87%) * 0.5);text-align: center">
 		<div class="col-md-3">
 		  <img src="img/byogoGlobal.png" alt="百优购"></div>
@@ -157,21 +161,21 @@
       <div class="container">
     <div class="col-md-10 footer-position">
     <div class="col-md-3">
-        <h4>解决方案</h4>
-        <a href="Solution.html#ccwl"><p>-仓储物流</p></a>
-        <a href="Solution.html#gylfw"><p>-供应链服务</p></a>
-        <a href="Solution.html#gyljr"><p>-供应链金融</p></a>
-        <a href="Solution.html#zzfw"><p>-增值服务</p></a>
+        <h4>解决方案<!--{en}Solution--></h4>
+        <a href="Solution.html#ccwl"><p>-仓储物流<!--{en}-Warehouse Logistics--></p></a>
+        <a href="Solution.html#gylfw"><p>-供应链服务<!--{en}-Supply chain service--></p></a>
+        <a href="Solution.html#gyljr"><p>-供应链金融<!--{en}-Supply chain finance--></p></a>
+        <a href="Solution.html#zzfw"><p>-增值服务<!--{en}-Value-added services--></p></a>
     </div>
     <div class="col-md-3">
-        <h4>合作伙伴</h4>
-        <a href="Partner.html#hzpt"><p>-合作平台</p></a>
-        <a href="Partner.html#hzpp"><p>-合作品牌</p></a>
-        <a href="Partner.html#hzdp"><p>-合作店铺</p></a>
-        <a href="Contact.html"><p>-业务洽谈</p></a>
+        <h4>合作伙伴<!--{en}Partner--></h4>
+        <a href="Partner.html#hzpt"><p>-合作平台<!--{en}-Cooperation Platform--></p></a>
+        <a href="Partner.html#hzpp"><p>-合作品牌<!--{en}-Cooperation brand--></p></a>
+        <a href="Partner.html#hzdp"><p>-合作店铺<!--{en}-Cooperative shop--></p></a>
+        <a href="Contact.html"><p>-业务洽谈<!--{en}-Business negotiations--></p></a>
     </div>
     <div class="col-md-6">
-        <h4>联系我们</h4>
+        <h4>联系我们<!--{en}Contact Us--></h4>
         <p>Toronto： 61 Telson Rd Unit 1 Markham ON<br>Contact(Toronto)： +1-905 604 0459</p>
         <p>大  连：辽宁省大连市高新园区软件园路1A-4软景中心A座2306室<br>业务咨询(Dalian)： 0411-88802080</p>
     </div>
@@ -184,5 +188,32 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/translater.min.js"></script>
+<script type="text/javascript">
+    var Translater = new Translater();
+
+    var btns = document.getElementById('btns');
+
+    for (var i = 0; i < btns.childNodes.length; i++) {
+        var  str = btns.childNodes[i].outerHTML;
+        if(str){
+            str = str.match(/onclick=\"setlang\(\'(.*?)\'\,/);
+            if(str.length>1 && str[1] === Translater.lang_name){
+                btns.childNodes[i].className = 'btn active'
+            }else{
+                btns.childNodes[i].className = 'btn'
+            }
+        }
+    }
+
+    function setlang(name,self){
+        Translater.setLang(name);
+        var btns = self.parentNode.children;
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].className = 'btn';
+        }
+        self.className = 'btn active';
+    }
+</script>
 </body>
 </html>

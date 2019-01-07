@@ -36,7 +36,7 @@ footer{
     position: fixed;
     background-color: white;
     z-index: 2;
-    height: 120px;
+    height: 150px;
     width: 100%;
 }
 .navbar-brand > img{
@@ -165,8 +165,8 @@ div .carousel-caption{
 .nav-container{
     background-color: rgba(255,255,255,0.9);
     border: 0px; 
-    margin-left:calc((100% - 75%) * 0.5);
-    margin-right:calc((100% - 75%) * 0.5);
+    margin-left:calc((100% - 76%) * 0.5);
+    margin-right:calc((100% - 76%) * 0.5);
 }
 .active{
     color:#A08E69!important;
@@ -203,8 +203,8 @@ div .carousel-caption{
 
 @media only screen and (max-width: 1250px){
     .nav-container{
-        margin-left:calc((100% - 94%) * 0.5);
-        margin-right:calc((100% - 94%) * 0.5);
+        margin-left:calc((100% - 96%) * 0.5);
+        margin-right:calc((100% - 96%) * 0.5);
     }
 }
 @media only screen and (max-width: 992px){
