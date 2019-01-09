@@ -1,6 +1,11 @@
 *{
     font-family: 'Microsoft Yahei';
 }
+br{
+    display: block;
+    margin: 8px 0;
+    content: "";
+}
 h5{
     font-size: 15px;
 }
@@ -118,18 +123,19 @@ div .carousel-caption{
 .shadow>div>div{
     box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.1);
 }
-
+.button-center{
+    display: flex;
+    justify-content: center;
+}
 .button{
     position: relative;
-    left: 50%;
-    bottom: 0%;
+    justify-content: center;
+    margin-bottom: 25px;
     padding:13px 60px;
-    margin-left: -98px;
-    margin-bottom: 30px;
     border-radius: 100px;
     background-color:rgba(144,126,105,1);
     color:white;
-    letter-spacing:5px;
+    letter-spacing:1px;
     border:0px;
     transition-duration: .5s;
 }
