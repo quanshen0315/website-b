@@ -62,7 +62,7 @@
   </div>
 
   <div class="container" style="margin-top:50px; margin-bottom:50px; margin-left:calc((100% - 60%) * 0.5); width: 80%">
-    <form class="form-horizontal" method="post" enctype="text/plain" id="mailForm">
+    <form class="form-horizontal" name="sentMessage" id="contactForm" novalidate>
       <div class="form-group">
         <label for="name" class="col-sm-2 control-label">*姓名<!--{en}Name*--></label>
         <div class="col-sm-10">
@@ -73,23 +73,23 @@
       <div class="form-group">
         <label for="email" class="col-sm-2 control-label">*邮箱<!--{en}Email*--></label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="email" placeholder="Email" required data-validation-required-message="Please enter your email address.">
+          <input type="email" class="form-control" id="email" placeholder="Email" required data-validation-required-message="Please enter your email address.">
           <p class="help-block text-danger"></p>
         </div>
       </div>
       <div class="form-group">
         <label for="phone" class="col-sm-2 control-label">*电话<!--{en}Phone*--></label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="phone" placeholder="Phone" required data-validation-required-message="Please enter your phone number.">
+          <input type="tel" class="form-control" id="phone" placeholder="Phone" required data-validation-required-message="Please enter your phone number.">
           <p class="help-block text-danger"></p>
         </div>
       </div>
-      <div class="form-group">
-        <label for="subject" class="col-sm-2 control-label">主题<!--{en}Subject--></label>
-        <div class="col-sm-10">
+ <!--     <div class="form-group">
+        <label for="subject" class="col-sm-2 control-label">主题</label><!--{en}Subject-->
+ <!--       <div class="col-sm-10">
           <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
         </div>
-      </div>
+      </div> -->
       <div class="form-group">
         <label for="Message" class="col-sm-2 control-label">内容<!--{en}Message--></label>
         <div class="col-sm-10">
@@ -97,7 +97,8 @@
         </div>
       </div>
       <div class="col-sm-12 text-center">
-        <input class="col-md-1 col-md-push-7 btn btn-default" type="submit" value="发送" value-en="Send" onClick="sendMail()">
+        <div id="success"></div>
+        <button type="submit" class="col-md-1 col-md-push-7 btn btn-default">Send</button>
       </div>
     </form>
     </div>
@@ -131,20 +132,10 @@
   </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script>
+<!-- Contact Form JavaScript -->
 <script src="js/contact_me.js"></script>
-<script type="text/javascript">
- function sendMail() {
-        var mailForm = document.getElementById("mailForm");
-        var name = document.getElementById('name').value;
-        var email = document.getElementById('email').value;
-        var phone = document.getElementById('phone').value;
-        var subject = document.getElementById('subject').value;
-        var message = document.getElementById('message').value;
-        var address = "mailto:info@byogo.com?subject=" + subject +"&body=" + name + "%0d%0a"+ phone +"%0d%0a"+ email +"%0d%0a" + message;
-        mailForm.action = address;
-        mailForm.submit();
-    }
-</script>
+<script src="js/jqBootstrapValidation.js"></script>
+<!--translater to English-->
 <script type="text/javascript" src="js/translater.min.js"></script>
 <script type="text/javascript">
     var Translater = new Translater();
