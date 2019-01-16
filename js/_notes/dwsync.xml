@@ -4,4 +4,6 @@
 <file name="contact_me.js" server="D:/wamp64/www" local="131917106764317182" remote="131917106760000000" Dst="1" />
 <file name="translater.min.js" server="D:/wamp64/www" local="131812262990000000" remote="131812298990000000" Dst="1" />
 <file name="bootstrap.min.js" server="D:/wamp64/www" local="131139536100000000" remote="131139572100000000" Dst="1" />
+<file name="bootstrap.min.js" server="D:/wamp64/www/website/" local="131139536100000000" remote="131139572100000000" Dst="1" />
+<file name="translater.min.js" server="D:/wamp64/www/website/" local="131812262990000000" remote="131812298990000000" Dst="1" />
 </dwsync>

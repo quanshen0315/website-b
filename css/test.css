@@ -1,6 +1,9 @@
 *{
     font-family: 'Microsoft Yahei';
 }
+a{
+
+}
 br{
     display: block;
     margin-top: 10px;
@@ -111,21 +114,20 @@ div .carousel-caption{
 }
 .hz>div>div{
     background-color: white;
-    flex:1 1 1;
     margin: 10px;
     padding:10px 30px;
 }
-.hzpt>div>div>a>img{
-    height:44px;
-}
-.hzpt>div>div>a>img:hover,.enter>div>a>img:hover{
+.hz>div>div>a>img:hover{
     opacity: .5;
+}
+.hzpt>div>div{
+    background-color: #f5f5f5;
 }
 .form-control{
     width:60%!important;
 }
 .shadow>div>div{
-    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.15);
 }
 .button-center{
     display: -webkit-flex;
@@ -154,8 +156,8 @@ div .carousel-caption{
 }
 .archor{
     display: block;
-    height: 88px;
-    margin-top: -88px;
+    height: 150px;
+    margin-top: -150px;
     visibility: hidden;
 }
 .carousel-caption{
