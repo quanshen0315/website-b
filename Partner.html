@@ -9,11 +9,11 @@
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/test.css" rel="stylesheet">
-
+<link href="css/partner.css" rel="stylesheet">
 </head>
 <body>
     <div class="menu-bg"></div>
-    <div id="btns" style="height: 20px; text-align: right; background-color:rgb(255,255,255);position: fixed;width: 100%;z-index: 100; padding-right: 20px; padding-top: 5px;">
+    <div id="btns">
         <a class="btn active" onclick="setlang('default',this)" href="javascript:;">中文</a>
         <a class="btn" onclick="setlang('en',this)" href="javascript:;">English</a> 
     </div>    
@@ -42,10 +42,10 @@
       </nav>
     <!-- navigation bar finish -->
   <div class="clearfix">
-  <div class="text-center" style="height:212px; margin-top:120px; position: relative;">
-      <div style="position: absolute; color:white; width: 100%;height: inherit;background-color: rgba(3,3,3,0.7);">
-	  <h1 style="position: absolute; left:0;right: 0; top: 25%; font-size:70px;">合作伙伴<!--{en}Partner--></h1></div>
-      <img src="img/合作.jpg" alt="解决方案" width ="100%" height ="212px">
+  <div class="text-center banner">
+      <div>
+	  <h1>合作伙伴<!--{en}Partner--></h1></div>
+      <img src="img/合作.jpg" alt="解决方案">
   </div>
   </div>
   <span class="archor" id="hzpp"></span>
@@ -59,12 +59,13 @@
       <div><a href="https://chemistrybrand.com" target="_blank"><img src="img/hzpp/che.png" alt="The chemistry"></a></div>
       <div><a href="https://hif.co" target="_blank"><img src="img/hzpp/hif.png" alt="Hif"></a></div>
       <div><a href="https://www.venque.com/" target="_blank"><img src="img/hzpp/venque.png" alt="Venque"></a></div>
+      <div><a href="http://planethemp.ca/" target="_blank"><img src="img/hzpp/planethemp-logo.png" alt="Planethemp"></a></div>
       <div><a href="https://www.dearbyrenee.ca/" target="_blank"><img src="img/hzpp/dbn.png" alt="DearByRenee"></a></div>
       <div><a href="http://boobamboo.com/" target="_blank"><img src="img/hzpp/bbb.png" alt="BooBamboo"></a></div>
       <div><a href="https://www.organysbeauty.com/" target="_blank"><img src="img/hzpp/ogn.png" alt="Organys"></a></div>
-      <div><a href="http://planethemp.ca/" target="_blank"><img src="img/hzpp/planethemp-logo.png" alt="Planethemp"></a></div>
       <div><a href="http://amarantebeauty.com/" target="_blank"><img src="img/hzpp/ab.png" alt="AmaranteBeauty"></a></div>
       <div><a href="http://www.ihubb.com/" target="_blank"><img src="img/hzpp/ihubb_logo1.png" alt="Ihubb_logo"></a></div>
+      <div><a href="https://shop17200937.youzan.com/v2/showcase/tag?alias=p8q1snpc&reft=1547836214307&spm=f.41789372&sl=oJpglJ&sf=wx_sm&is_share=1" target="_blank"><img src="img/hzpp/hb.png" alt="Heart Beats"></a></div>
     </div>
   </div>
   <span class="archor" id="hzpt"></span>
@@ -88,19 +89,32 @@
   <div class="well text-center hz shadow">
     <div>
       <h1 class="featurette-heading">合作店铺<!--{en}Cooperative Shop--></h1>
-      <div><a href="img/sqs/byogo.jpg" target="_blank"><img src="img/hzdp/byogo.png" alt="Deciem"></a></div>
-      <div><a href="img/sqs/Sauir.jpg" target="_blank"><img src="img/hzdp/sauir.png" alt="The ordinary"></a></div>
-      <div><a href="img/sqs/sexq.jpg" target="_blank"><img src="img/hzdp/sexq.png" alt="NIOD"></a></div>
-      <div><a href="img/sqs/zp.jpg" target="_blank"><img src="img/hzdp/zp.png" alt="Hylamide"></a></div>
-      <div><a href="img/sqs/yyxp.jpg" target="_blank"><img src="img/hzdp/yyxp.png" alt="The chemistry"></a></div>
-      <div><a href="img/sqs/abyz.jpg" target="_blank"><img src="img/hzdp/abyz.png" alt="Hif"></a></div>
-      <div><a href="img/sqs/carrot.jpg" target="_blank"><img src="img/hzdp/carrot.png" alt="Venque"></a></div>
-      <div><a href="img/sqs/ml.jpg" target="_blank"><img src="img/hzdp/ml.png" alt="DearByRenee"></a></div>
-      <div><a href="img/sqs/pj.jpg" target="_blank"><img src="img/hzdp/pj.png" alt="BooBamboo"></a></div>
-      <div><a href="img/sqs/suvi.jpg" target="_blank"><img src="img/hzdp/suvi.png" alt="Organys"></a></div>
-      <div><a href="img/sqs/xka.jpg" target="_blank"><img src="img/hzdp/xka.png" alt="Planethemp"></a></div>
-      <div><a href="img/sqs/yxj.jpg" target="_blank"><img src="img/hzdp/yxj.png" alt="AmaranteBeauty"></a></div>
+      <div><img class="sqs" src="img/hzdp/byogo.png" alt="byogo百优购_logo"></div>
+      <div><img class="sqs" src="img/hzdp/sauir.png" alt="sauir_logo"></div>
+      <div><img class="sqs" src="img/hzdp/sexq.png" alt="尚恩小倩_logo"></div>
+      <div><img class="sqs" src="img/hzdp/zp.png" alt="知品_logo"></div>
+      <div><img class="sqs" src="img/hzdp/yyxp.png" alt="媛野小铺_logo"></div>
+      <div><img class="sqs" src="img/hzdp/abyz.png" alt="阿部药妆_logo"></div>
+      <div><img class="sqs" src="img/hzdp/carrot.png" alt="胡萝卜和小桃_logo"></div>
+      <div><img class="sqs" src="img/hzdp/ml.png" alt="美利_logo"></div>
+      <div><img class="sqs" src="img/hzdp/pj.png" alt="潘酱_logo"></div>
+      <div><img class="sqs" src="img/hzdp/suvi.png" alt="SUVI_logo"></div>
+      <div><img class="sqs" src="img/hzdp/xka.png" alt="小可爱_logo"></div>
+      <div><img class="sqs" src="img/hzdp/yxj.png" alt="余小姐_logo"></div>
+      <div><img class="sqs" src="img/hzdp/amoj.png" alt="阿Mo酱_logo"></div>
+      <div><img class="sqs" src="img/hzdp/mojelekarna.png" alt="莫杰卡纳_logo"></div>
+      <div><img class="sqs" src="img/hzdp/newlookmarket.png" alt="NewLookMarket_logo"></div>
+      <div><img class="sqs" src="img/hzdp/yyzy.png" alt="洋洋庄园_logo"></div>
+      <div><img class="sqs" src="img/hzdp/mzz.png" alt="美滋滋海淘小店店_logo"></div>
+      <div><img class="sqs" src="img/hzdp/tm.png" alt="兔妈美式生活馆"></div>
+      <div><img class="sqs" src="img/hzdp/mf.png" alt="魔贩"></div>
+      <div><img class="sqs" src="img/hzdp/barpa.png" alt="巴蓓拉Barpa"></div>
     </div>
+  </div>
+  <!--sqs-->
+  <div id="sqs" class="sqsShow">
+      <span class="close">x</span>
+      <a id="store" target="_blank"><img class="sqs-content" id="img1" alt="授权书"></a> 
   </div>
   <footer>
       <div class="container">
@@ -121,7 +135,7 @@
     </div>
     <div class="col-md-6">
         <h4>联系我们<!--{en}Contact Us--></h4>
-        <p>Toronto： 61 Telson Rd Unit 1 Markham ON<br>Contact(Toronto)： +1-905 604 0459</p>
+        <p>多伦多<!--{en}Toronto-->：61 Telson Rd Unit 1 Markham ON<br>联系电话 / 传真(多伦多)<!--{en}Contact/Fax(Toronto)-->：+1-905 604 0459 / +1-905 604 1320</p>
         <p>大  连：辽宁省大连市高新园区软件园路1A-4软景中心A座2306室<br>业务咨询(Dalian)： 0411-88802080</p>
     </div>
    </div>
@@ -134,6 +148,7 @@
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/translater.min.js"></script>
+<script type="text/javascript" src="js/partner.js"></script>
 <script type="text/javascript">
     var Translater = new Translater();
 

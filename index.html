@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="menu-bg"></div>
-    <div id="btns" style="height: 20px; text-align: right; background-color:rgb(255,255,255);position: fixed;width: 100%;z-index: 100; padding-right: 20px; padding-top: 5px;">
+    <div id="btns">
         <a class="btn active" onclick="setlang('default',this)" href="javascript:;">中文</a>
         <a class="btn" onclick="setlang('en',this)" href="javascript:;">English</a> 
     </div>
@@ -130,7 +130,7 @@
             <div class="strokeleft">&nbsp</div>
 		</div>	 
 	  </div>
-		<div class="col-md-10 col-md-offset-1 enter" style="text-align: center">
+		<div class="col-md-10 col-md-offset-1 enter text-center">
 			<div class="col-md-3"><a href="https://shop151700671.taobao.com/?spm=a230r.7195193.1997079397.2.43a07df4xhbW36" target="_blank"><img class="shop-enter" src="img/tb.png" alt="淘宝"></a></div>
 			<div class="col-md-3"><a href="http://deciem.jd.hk/" target="_blank"><img class="shop-enter" src="img/jd.png" alt="京东"></a></div>
 			<div class="col-md-3"><a href="https://j.youzan.com/ttYiO9" target="_blank"><img class="shop-enter" src="img/yz.png" alt="有赞"></a></div>
@@ -139,13 +139,13 @@
 	</div>
   <!-- contact us-->
   <div class="well blackbg">
-    <div class="text-center" style="margin:30px 0;"><h1 class="featurette-heading">对我们的服务感兴趣？<!--{en}Interested in our services?--></h1></div>
+    <div class="text-center pd"><h1 class="featurette-heading">对我们的服务感兴趣？<!--{en}Interested in our services?--></h1></div>
     <div class="button-center">
         <a href="Contact.html"><input type="button" class="button" value="联系我们" value-en="Contact Us"></a>
       </div>
   </div>
   
-  <div class="container" style="position: relative; margin-bottom: 2%">
+  <div class="container pd">
         <div class="col-md-6">
             <div class="strokeright">&nbsp</div>
             <h2 class="featurette-heading titleright">服务公众号<!--{en}Scan by WeChat--></h2></div><br>
@@ -160,36 +160,17 @@
 	      <img src="img/dl.png" alt="大连自贸跨境商品中心"></div>
       </div>  
   </div>
-  <footer>
-      <div class="container">
-    <div class="col-md-10 footer-position">
-    <div class="col-md-3">
-        <h4>解决方案<!--{en}Solution--></h4>
-        <a href="Solution.html#ccwl"><p>-仓储物流<!--{en}-Warehouse Logistics--></p></a>
-        <a href="Solution.html#gylfw"><p>-供应链服务<!--{en}-Supply chain service--></p></a>
-        <a href="Solution.html#gyljr"><p>-供应链金融<!--{en}-Supply chain finance--></p></a>
-        <a href="Solution.html#zzfw"><p>-增值服务<!--{en}-Value-added services--></p></a>
-    </div>
-    <div class="col-md-3">
-        <h4>合作伙伴<!--{en}Partner--></h4>
-        <a href="Partner.html#hzpt"><p>-合作平台<!--{en}-Cooperation Platform--></p></a>
-        <a href="Partner.html#hzpp"><p>-合作品牌<!--{en}-Cooperation brand--></p></a>
-        <a href="Partner.html#hzdp"><p>-合作店铺<!--{en}-Cooperative shop--></p></a>
-        <a href="Contact.html"><p>-业务洽谈<!--{en}-Business negotiations--></p></a>
-    </div>
-    <div class="col-md-6">
-        <h4>联系我们<!--{en}Contact Us--></h4>
-        <p>Toronto： 61 Telson Rd Unit 1 Markham ON<br>Contact(Toronto)： +1-905 604 0459</p>
-        <p>大  连：辽宁省大连市高新园区软件园路1A-4软景中心A座2306室<br>业务咨询(Dalian)： 0411-88802080</p>
-    </div>
-   </div>
-   </div>
-   <hr>
-   <p class="text-center">辽ICP备17014002号-1 Copyright © 2019 by Byogo Inc.</p>
+  <footer id="test">
   </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/load.js"></script>
+<script>
+    $(document).ready(function(){
+        $("footer").load('footer.txt');
+    });
+</script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/translater.min.js"></script>
 <script type="text/javascript">

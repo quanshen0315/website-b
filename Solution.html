@@ -9,11 +9,10 @@
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/test.css" rel="stylesheet">
-
 </head>
 <body>
     <div class="menu-bg"></div>
-    <div id="btns" style="height: 20px; text-align: right; background-color:rgb(255,255,255);position: fixed;width: 100%;z-index: 100; padding-right: 20px; padding-top: 5px;">
+    <div id="btns">
         <a class="btn active" onclick="setlang('default',this)" href="javascript:;">中文</a>
         <a class="btn" onclick="setlang('en',this)" href="javascript:;">English</a> 
     </div>
@@ -42,15 +41,15 @@
       </nav>
     <!-- navigation bar finish -->
   <div class="clearfix">
-  <div class="text-center" style="height:212px; margin-top:120px; position: relative;">
-      <div style="position: absolute; color:white; width: 100%; height: inherit;background-color: rgba(3,3,3,0.7);">
-	  <h1 style="position: absolute; left:0;right: 0;top:25%; font-size:70px;">解决方案<!--{en}Solution--></h1></div>
-      <img src="img/解决.jpg" alt="解决方案"  width ="100%" height ="212px">
+  <div class="text-center banner">
+      <div>
+	  <h1>解决方案<!--{en}Solution--></h1></div>
+      <img src="img/解决.jpg" alt="解决方案">
 
   </div>
   </div>
   <span class="archor" id="ccwl"></span>
-  <div class="well" style="position: relative;margin: 0;">
+  <div class="well adj-well">
 	<div class="container">
 	  <div class="row">
         <div class="col-md-6 col-md-push-6">
@@ -65,7 +64,7 @@
 	</div>
   </div>
     <span class="archor" id="gylfw"></span>
-    <div style="position: relative;margin: 0; padding:19px;">
+    <div class="adj-white">
 	<div class="container">
 	  <div class="row">
         <div class="col-md-6">
@@ -80,7 +79,7 @@
 	</div>
   </div>
     <span class="archor" id="gyljr"></span>
-    <div class="well" style="position: relative;margin: 0;">
+    <div class="well adj-well">
 	<div class="container">
 	  <div class="row">
         <div class="col-md-6 col-md-push-6">
@@ -95,7 +94,7 @@
 	</div>
   </div>
     <span class="archor" id="zzfw"></span>
-    <div style="position: relative;margin: 0; padding:19px;">
+    <div class="adj-white">
 	<div class="container">
 	  <div class="row">
         <div class="col-md-6">
@@ -109,10 +108,14 @@
       </div>
 	</div>
   </div>
-  <div class="well" style="position: relative;margin: 0;">
+  <div class="well adj-well">
 	<div class="container">
       <div class="col-md-7" style="text-align: center;"><h2>对我们的服务感兴趣? 马上联系我们<!--{en}Interested in our services? Contact us now--></h2></div>
-      <div class="col-md-5 button-center"><a href="Contact.html"><input type="button" class="button" value="联系我们" value-en="Contact Us" style="margin-top:15px; margin-bottom: 15px;"></a></div>
+      <div class="col-md-5 button-center">
+          <a href="Contact.html">
+             <input type="button" class="button" value="联系我们" value-en="Contact Us">
+          </a>
+      </div>
     </div>
   </div>
   <footer>

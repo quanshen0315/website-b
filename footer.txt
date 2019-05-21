@@ -1,0 +1,25 @@
+  <div class="container">
+    <div class="col-md-10 footer-position">
+    <div class="col-md-3">
+        <h4>解决方案<!--{en}Solution--></h4>
+        <a href="Solution.html#ccwl"><p>-仓储物流<!--{en}-Warehouse Logistics--></p></a>
+        <a href="Solution.html#gylfw"><p>-供应链服务<!--{en}-Supply chain service--></p></a>
+        <a href="Solution.html#gyljr"><p>-供应链金融<!--{en}-Supply chain finance--></p></a>
+        <a href="Solution.html#zzfw"><p>-增值服务<!--{en}-Value-added services--></p></a>
+    </div>
+    <div class="col-md-3">
+        <h4>合作伙伴<!--{en}Partner--></h4>
+        <a href="Partner.html#hzpt"><p>-合作平台<!--{en}-Cooperation Platform--></p></a>
+        <a href="Partner.html#hzpp"><p>-合作品牌<!--{en}-Cooperation brand--></p></a>
+        <a href="Partner.html#hzdp"><p>-合作店铺<!--{en}-Cooperative shop--></p></a>
+        <a href="Contact.html"><p>-业务洽谈<!--{en}-Business negotiations--></p></a>
+    </div>
+    <div class="col-md-6">
+        <h4>联系我们<!--{en}Contact Us--></h4>
+        <p>Toronto： 61 Telson Rd Unit 1 Markham ON<br>Contact(Toronto)： +1-905 604 0459</p>
+        <p>大  连：辽宁省大连市高新园区软件园路1A-4软景中心A座2306室<br>业务咨询(Dalian)： 0411-88802080</p>
+    </div>
+   </div>
+   </div>
+   <hr>
+   <p class="text-center">辽ICP备17014002号-1 Copyright © 2019 by Byogo Inc.</p>
